@@ -6,22 +6,30 @@
     <meta name="viewport" content="width=device-width" />
     <title>Xiaopeng Zhu's Home</title>
     <script src="./lib.js"></script>
+    <!--
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" type="text/css">
+    -->
+    <link rel="stylesheet" href="style.css" type="text/css">
     <style>
-        html,
         body {
-            height: 100%
+            height: 100%;
+             margin:0px;
+            border:0px;
+            padding:0px;
         }
 
         html {
-            --mdc-theme-primary: brown;
+            --mdc-theme-primary: #1c98e5;
+            margin:0px;
+            border:0px;
+            padding:0px;
         }
     </style>
 </head>
 
 <body>
-    <div id="_main_" style="height:100%">
-        <mwc-top-app-bar>
+    <div id="_main_" style="height:100%;">
+        <mwc-top-app-bar dense>
             <mwc-icon-button icon="menu" slot="navigationIcon"></mwc-icon-button>
             <div slot="title">Xiaopeng Zhu</div>
             <mwc-icon-button icon="file_download" slot="actionItems"></mwc-icon-button>
