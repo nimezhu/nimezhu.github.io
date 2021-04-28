@@ -1,49 +1,57 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html>
 
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Xiaopeng Zhu's Home</title>
+    <title>Xiaopeng Zhu's Workshop</title>
     <script src="./lib.js"></script>
-    <!--
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons&display=block" type="text/css">
-    -->
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./style/font.css" type="text/css" />
     <style>
+        html,
         body {
             height: 100%;
-             margin:0px;
-            border:0px;
-            padding:0px;
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif, serif, arial;
         }
-
-        html {
-            --mdc-theme-primary: #1c98e5;
-            margin:0px;
-            border:0px;
-            padding:0px;
+        body {
+            position: relative;
+        }
+        #menu {
+            background-color:#2E6789;
+            color: #FFF;
+            padding: 5px;
         }
     </style>
 </head>
 
 <body>
-    <div id="_main_" style="height:100%;">
-        <mwc-top-app-bar dense>
-            <mwc-icon-button icon="menu" slot="navigationIcon"></mwc-icon-button>
-            <div slot="title">Xiaopeng Zhu</div>
-            <mwc-icon-button icon="file_download" slot="actionItems"></mwc-icon-button>
-            <mwc-icon-button icon="print" slot="actionItems"></mwc-icon-button>
-            <mwc-icon-button icon="favorite" slot="actionItems"></mwc-icon-button>
-            <div>
-                <!-- content -->
-            </div>
-        </mwc-top-app-bar>
+    <div>
+    <div id="menu">
+        <span> Nucleome Apps </span>
+    </div>
+    <div id="container">
+    </div>
     </div>
     <script>
-        (function() {})()
+        (function(S){
+            var el = document.getElementById("container")
+            fetch("./data.json",{})
+                .then( d => d.json())
+                .then(d => {
+                    console.log(d)
+                    d.forEach((d)=>{
+                        var c = new S.AppCard()
+                        c.data = d  
+                        el.appendChild(c)
+                    })
+                })
+                .catch(e => {
+                    console.warn("error",e)
+                })
+        })(sand)
     </script>
-
 </body>
 
 </html>
