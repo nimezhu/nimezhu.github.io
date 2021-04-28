@@ -21,6 +21,23 @@
         "icon":"https://youdata.github.io/ome_icon/img/icon-192.png",
         "sw":"https://youdata.github.io/ome_icon/sw.js",
         "URL":"https://youdata.github.io/ome_icon"
+    },
+    {
+        "name":"识字",
+        "icon":"https://youdata.github.io/zi/img/icon-192.png",
+        "sw":"https://youdata.github.io/zi/sw.js",
+        "URL":"https://youdata.github.io/zi"
+    },
+    {
+        "name":"诗图",
+        "icon":"https://youdata.github.io/tuwen/img/icon-192.png",
+        "sw":"https://youdata.github.io/tuwen/sw.js",
+        "URL":"https://youdata.github.io/tuwen"
+    },
+    {
+        "name":"图标"，
+        "icon":"https://youdata.github.io/icon/img/icon-192.png",
+        "sw":"https://youdata.github.io/icon/sw.js",
+        "URL":"https://youdata.github.io/icon"
     }
-
 ]
