@@ -18,23 +18,41 @@
         body {
             position: relative;
         }
+        
         #menu {
-            background-color:#2E6789;
-            color: #FFF;
+            background-color:#FFFFFF;
+            color: #333333;
             padding: 5px;
             cursor: default;
+            border-bottom: solid 1px #CCC;
         }
         #container {
-            text-align: center;
+            border-top: solid 1px #DDD;
+            text-align:center;
         }
+        #title {
+          color:#A00000;
+          font-size:24px;
+          font-weight:bold;
+
+        }
+        #subtitle {
+          color:#1182C2;
+          font-size:22px;
+          font-weight: bold;
+        }
+
     </style>
 </head>
 
 <body>
     <div>
     <div id="menu">
-        <img style="height:30px;width:30px" src="./img/peng.svg"></img>
-        <span style="padding-right:10px;float:right;font-size:26px"> Workshop </span>
+        <span id="title">纵横 Data </span>
+        <span id="subtitle"> Workshop </span>
+        <a href="https://github.com/nimezhu">
+        <img style="height:30px;width:30px;float:right;padding-right:10px" src="./img/peng.svg"></img>
+        </a>
     </div>
     <div id="container">
     </div>
