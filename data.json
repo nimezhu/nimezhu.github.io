@@ -32,6 +32,26 @@
     {
         "name":"全唐诗",
         "icon":"https://app.youdata.studio/tangshi/icon.svg",
-        "URL":"https://app.youdata.studio/tangshi"
+        "URL":"https://app.youdata.studio/tangshi",
+        "version":"0.0.1"
+    },
+    {
+        "name":"全宋词",
+        "icon":"https://app.youdata.studio/songci/icon.svg",
+        "URL":"https://app.youdata.studio/songci",
+        "version":"0.0.1"
+    },
+    {
+        "name":"歌词",
+        "icon":"https://app.youdata.studio/geci/icon.svg",
+        "URL":"https://app.youdata.studio/geci",
+        "version":"0.0.1"
+    },
+    {
+        "name":"史记",
+        "icon":"https://app.youdata.studio/shiji/icon.svg",
+        "URL":"https://app.youdata.studio/shiji",
+        "version":"0.0.1"
     }
+
 ]
