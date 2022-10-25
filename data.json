@@ -25,7 +25,7 @@
     },
     {
         "name":"图标",
-        "icon":"https://youdata.github.io/icon/img/icon-192.png",
+        "icon":"https://youdata.github.io/icon/icon.svg",
         "sw":"https://youdata.github.io/icon/sw.js",
         "URL":"https://youdata.github.io/icon"
     },
