@@ -28,5 +28,10 @@
         "icon":"https://youdata.github.io/icon/img/icon-192.png",
         "sw":"https://youdata.github.io/icon/sw.js",
         "URL":"https://youdata.github.io/icon"
+    },
+    {
+        "name":"全唐诗",
+        "icon":"https://app.youdata.studio/tangshi/icon.svg",
+        "URL":"https://app.youdata.studio/tangshi"
     }
 ]
