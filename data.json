@@ -1,15 +1,9 @@
 [
     {
-        "name":"Nucleome Browser",
-        "icon":"https://vis.nucleome.org/static/img/icon3/icon-512.png",
-        "sw":"https://viz.nucleome.org/sw.js",
-        "URL":"https://vis.nucleome.org"
-    },
-    {
-        "name":"Omics Icon Maker",
-        "icon":"https://youdata.github.io/ome_icon/img/icon-192.png",
-        "sw":"https://youdata.github.io/ome_icon/sw.js",
-        "URL":"https://youdata.github.io/ome_icon"
+        "name":"诗图",
+        "icon":"https://youdata.github.io/tuwen/img/icon-192.png",
+        "sw":"https://youdata.github.io/tuwen/sw.js",
+        "URL":"https://youdata.github.io/tuwen"
     },
     {
         "name":"识字",
@@ -17,12 +11,7 @@
         "sw":"https://youdata.github.io/zi/sw.js",
         "URL":"https://youdata.github.io/zi"
     },
-    {
-        "name":"诗图",
-        "icon":"https://youdata.github.io/tuwen/img/icon-192.png",
-        "sw":"https://youdata.github.io/tuwen/sw.js",
-        "URL":"https://youdata.github.io/tuwen"
-    },
+   
     {
         "name":"图标",
         "icon":"https://youdata.github.io/icon/icon.svg",
